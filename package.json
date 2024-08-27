@@ -1,0 +1,48 @@
+{
+  "name": "nodejs-ssl-server",
+  "version": "1.0.0",
+  "description": "Show you how to deploy nodejs server on AWS EC2 Ubuntu server with Free SSL and Nginx",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saasscaleup/nodejs-ssl-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "AWS",
+    "EC@",
+    "instanace",
+    "Free",
+    "SSL",
+    "Nginx",
+    "Reverse",
+    "Proxy",
+    "Expressjs"
+  ],
+  "author": "Scale-Up SaaS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saasscaleup/nodejs-ssl-server/issues"
+  },
+  "homepage": "https://github.com/saasscaleup/nodejs-ssl-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.5.4"
+  }
+}
